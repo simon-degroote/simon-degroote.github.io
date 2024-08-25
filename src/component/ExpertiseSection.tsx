@@ -5,7 +5,7 @@ import "./ExpertiseSection.css"
 
 const ExpertiseSection: React.FC<any> = (props: any) => {
     return (
-        <section className="expertiseSection">
+        <section id="pixSection" className="expertiseSection">
           <p className="expertiseSectionTitle">PIX</p>
             <p className="expertiseSectionDescription">{DATA.expertise.text}</p>
             <img className="pixImg" src={require("./../img/pix.png")}></img>

@@ -4,7 +4,7 @@ import "./SkillsSection.css"
 
 const SkillsSection: React.FC<any> = (props: any) => {
     return (
-        <section className="skillsSection">
+        <section id="skillsSection" className="skillsSection">
             <p className="skillsSectionTitle">Skills</p>
             <ul className="skillsList">
                 {DATA.skills.map((skill) => {

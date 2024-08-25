@@ -4,7 +4,7 @@ import "./PersonalSection.css"
 
 const PersonalSection: React.FC<any> = (props: any) => {
     return (
-        <section className="personalSection">
+        <section id="aboutMeSection" className="personalSection">
             <div className="personalSectionNameAndImg">
                 <p className="personalSectionName">{DATA.name}</p>
                 <img className="personalSectionImg" src={require("./../img/pp.jpg")}></img>

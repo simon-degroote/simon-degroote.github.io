@@ -3,7 +3,7 @@ import "./IsatLifeSection.css"
 
 const IsatLifeSection: React.FC<any> = (props: any) => {
     return (
-        <section className="isatLifeSection">
+        <section id="isatSection" className="isatLifeSection">
             <p className="isatLifeSectionTitle">Mon implication dans la vie de l’ISAT </p>
             {
                 DATA.isatLife.map((isat) => {

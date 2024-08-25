@@ -9,10 +9,12 @@ import EducationSection from "./EducationSection";
 import SkillsSection from "./SkillsSection";
 import FooterSection from "./FooterSection";
 import PersonalSection from "./PersonalSection";
+import NavBar from "./NavBar";
 
 function Main() {
     return (
         <>
+        <NavBar />
           <PersonalSection />
           <SkillsSection />
           <EducationSection />

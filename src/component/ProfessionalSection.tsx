@@ -12,7 +12,7 @@ const ProfessionalSection: React.FC<any> = (props: any) => {
     ];
 
     return (
-        <section className="professionalSection">
+        <section id="experienceSection" className="professionalSection">
             <p className="professionalSectionTitle">Expériences professionnelles</p>
             <div className="professionalList">
             {

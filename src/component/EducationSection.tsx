@@ -16,9 +16,9 @@ const EducationSection: React.FC<any> = (props: any) => {
     }, [i]);
     
     const schoolImages: any[] = [
-        require("./../img/Saint-Marie.jpg"),
+        require("./../img/ephec.jpeg"),
         require("./../img/ecam.png"),
-        require("./../img/ephec.jpeg")
+        require("./../img/Saint-Marie.jpg")
     ]
 
     const educations: any[] = [
@@ -48,7 +48,7 @@ const EducationSection: React.FC<any> = (props: any) => {
     }
 
     return (
-        <section className="educationSection">
+        <section id="educationSection" className="educationSection">
             <p className="educationSectionTitle">Education</p>
             {
                 educations[i]

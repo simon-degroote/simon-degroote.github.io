@@ -4,7 +4,7 @@ import "./AnalyzeSection.css"
 
 const AnalyzeSection: React.FC<any> = (props: any) => {
     return (
-        <section className="analyzeSection">
+        <section id="analyseSection" className="analyzeSection">
             <p className="analyzeSectionTitle">Mon analyse réflexive</p>
             <div className="analyzeSectionText">
             {
