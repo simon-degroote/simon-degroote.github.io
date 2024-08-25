@@ -1,0 +1,35 @@
+.isatLifeSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: red;
+    background-image: url("./../img/work_day.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.isatLifeSectionTitle {
+    font-size: 50px;
+    text-align: center;
+}
+
+.isatLifeItem {
+    background-color: lightcoral;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.isatLifeItemTitle {
+    color: lightblue;
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.isatLifeItemText {
+    font-size: 20px;
+}

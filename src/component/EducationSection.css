@@ -1,0 +1,20 @@
+.educationSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: red;
+    background-image: url("./../img/education.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.educationSectionTitle {
+    font-size: 50px;
+}
+
+.formationItemImage {
+    max-height: 600px;
+    max-width: 600px;
+}
