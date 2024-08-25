@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4fb658d4.css",
+    "main.js": "/static/js/main.1325e7a3.js",
+    "static/js/453.51b2f1c6.chunk.js": "/static/js/453.51b2f1c6.chunk.js",
+    "static/media/ecam.png": "/static/media/ecam.2e4e5f9fb5e3694f5bf6.png",
+    "static/media/work_day.jpg": "/static/media/work_day.d85771f222fd9a64b4fe.jpg",
+    "static/media/education.jpg": "/static/media/education.8f31d7b27ba10b68ac29.jpg",
+    "static/media/ephec.jpeg": "/static/media/ephec.e2e7cd5149b5cfd04961.jpeg",
+    "static/media/Saint-Marie.jpg": "/static/media/Saint-Marie.0a95292d603ec275cdd2.jpg",
+    "static/media/analyze.jpg": "/static/media/analyze.d18a250757ce8c4d0f77.jpg",
+    "index.html": "/index.html",
+    "main.4fb658d4.css.map": "/static/css/main.4fb658d4.css.map",
+    "main.1325e7a3.js.map": "/static/js/main.1325e7a3.js.map",
+    "453.51b2f1c6.chunk.js.map": "/static/js/453.51b2f1c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fb658d4.css",
+    "static/js/main.1325e7a3.js"
+  ]
+}
