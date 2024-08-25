@@ -1,0 +1,35 @@
+.personalSection {
+    display: flex;
+}
+
+.personalSectionName {
+    padding-left: 30px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.personalSectionImg {
+    max-height: 400px;
+}
+
+
+.personalSectionDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+.personalSectionBio {
+    width: 600px;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.personalSectionCv {
+    width: 100px;
+    line-height: 50px;
+    background-color: #f7ecec;
+    border: 2px solid gray;
+    text-align: center;
+}

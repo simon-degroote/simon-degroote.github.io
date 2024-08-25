@@ -1,6 +1,16 @@
 .expertiseSection {
     background-color: lightblue;
     position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.expertiseSectionTitle {
+    font-size: 50px;
+}
+
+.pixImg {
+    border-radius: 50%;
 }
 
 .expertiseSectionDescription {

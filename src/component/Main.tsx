@@ -7,25 +7,20 @@ import IsatLifeSection from "./IsatLifeSection";
 import ProfessionalSection from "./ProfessionalSection";
 import EducationSection from "./EducationSection";
 import SkillsSection from "./SkillsSection";
+import FooterSection from "./FooterSection";
+import PersonalSection from "./PersonalSection";
 
 function Main() {
     return (
         <>
-          {DATA.address}
-          <section className="personalSection">
-            <img></img>
-            <p>{DATA.name}</p>
-            <p>{DATA.tel}</p>
-            <p>{DATA.email}</p>
-            <p>{DATA.address}</p>
-            <p>{DATA.bio}</p>
-          </section>
+          <PersonalSection />
           <SkillsSection />
           <EducationSection />
           <ProfessionalSection />
           <IsatLifeSection />
           <AnalyzeSection />
           <ExpertiseSection />
+          <FooterSection />
         </>
     );
 }

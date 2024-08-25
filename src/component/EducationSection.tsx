@@ -4,9 +4,16 @@ import "./EducationSection.css"
 
 const EducationSection: React.FC<any> = (props: any) => {
     const [i, setI] = useState<number>(0);
+    const [selectedElement, setSelectedElement] = useState<HTMLElement | null>(null);
 
-    const [time, setTime] = useState(new Date());
-
+    useEffect(() => {
+        if(selectedElement != null) {
+            selectedElement.classList.remove("bordered");
+        }
+        const element : HTMLElement = document.getElementById("littleImage" + i) as HTMLElement;
+        element.classList.add("bordered")
+        setSelectedElement(element);
+    }, [i]);
     
     const schoolImages: any[] = [
         require("./../img/Saint-Marie.jpg"),
@@ -24,12 +31,6 @@ const EducationSection: React.FC<any> = (props: any) => {
         setI(tmp);
     }
 
-    const incrementI2 = () => {
-        const tmp = (i + 1) % DATA.education.length;
-        setI(tmp);
-    }
-    //setInterval(incrementI2, 4000);
-
     DATA.education.forEach((educ, index) => {
         const data = <div className="educationItem" onClick={incrementI}>
         <img className="formationItemImage" src={schoolImages[index]}></img>
@@ -40,9 +41,11 @@ const EducationSection: React.FC<any> = (props: any) => {
         educations.push(data);
     })
 
-    // DATA.education.forEach( (educ) => {
-    //     schoolImages.push(require(educ.image as string));
-    // })
+    const select = (event: any) => {
+        event.preventDefault();
+        const tmp: number = +event.target.id.slice(-1);
+        setI(tmp);
+    }
 
     return (
         <section className="educationSection">
@@ -50,7 +53,14 @@ const EducationSection: React.FC<any> = (props: any) => {
             {
                 educations[i]
             }
-          </section>
+            <div>
+                {
+                    DATA.education.map((educ, index) => {
+                        return <img id={"littleImage" + index} className="littleImages" src={schoolImages[index]} onClick={select}></img>
+                    })
+                }
+            </div>
+        </section>
     )
 }
 

@@ -46,10 +46,14 @@
 }
 
 .professionalItemData {
+    margin-left: 10px;
+    margin-right: 10px;
     width: 700px;
 }
 
 .professionalItemImg {
+    margin-left: 10px;
+    margin-right: 10px;
     max-height: 150px;
 }
 
@@ -60,6 +64,10 @@
     font-weight: bold;
     margin-bottom: 20px;
     font-size: 17px;
+}
+
+.professionalItemPlace {
+    max-width: 400px;
 }
 
 .professionalItemTime {

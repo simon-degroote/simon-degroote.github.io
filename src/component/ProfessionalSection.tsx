@@ -3,6 +3,14 @@ import "./ProfessionalSection.css"
 
 
 const ProfessionalSection: React.FC<any> = (props: any) => {
+    const images : any[] = [
+        require("./../img/exp1.png"),
+        require("./../img/exp2.jpg"),
+        require("./../img/exp3.jpg"),
+        require("./../img/exp4.png"),
+        require("./../img/exp5.png"),
+    ];
+
     return (
         <section className="professionalSection">
             <p className="professionalSectionTitle">Expériences professionnelles</p>
@@ -20,12 +28,12 @@ const ProfessionalSection: React.FC<any> = (props: any) => {
                                         
                                         <p className="professionalItemFormation">Formation : {pro.formation}</p>
                                     </div>
-                                    <img  className="professionalItemImg" src={require("./../img/analyze.jpg")}></img>
+                                    <img  className="professionalItemImg" src={images[index]}></img>
                                 </div>
                                 </>
                     } else {
                         return <><div className="professionalItem">
-                                    <img  className="professionalItemImg" src={require("./../img/analyze.jpg")}></img>
+                                    <img  className="professionalItemImg" src={images[index]}></img>
                                     <div className="professionalItemData">
                                         <div className="professionalItemPlaceAndTime">
                                                 <p className="professionalItemPlace">{pro.where}</p>

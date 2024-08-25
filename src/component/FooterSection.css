@@ -1,0 +1,36 @@
+.FooterSection {
+    background-color: #250825;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.FooterSectionContactDiv {
+    display: flex;
+}
+
+.FooterSectionContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.FooterSectionSocial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.FooterSectionSocialDiv {
+    display: flex;
+}
+
+.FooterSectionSocialName {
+    width: 100px;
+}

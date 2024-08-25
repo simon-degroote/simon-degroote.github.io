@@ -6,7 +6,9 @@ import "./ExpertiseSection.css"
 const ExpertiseSection: React.FC<any> = (props: any) => {
     return (
         <section className="expertiseSection">
+          <p className="expertiseSectionTitle">PIX</p>
             <p className="expertiseSectionDescription">{DATA.expertise.text}</p>
+            <img className="pixImg" src={require("./../img/pix.png")}></img>
             {
                 DATA.expertise.data.map((exp) => {
                     return <div className="expertiseDiv">

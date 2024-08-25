@@ -18,3 +18,12 @@
     max-height: 600px;
     max-width: 600px;
 }
+
+.littleImages {
+    max-height: 120px;
+    margin: 20px;
+}
+
+.bordered {
+    border: 2px solid red;
+}
