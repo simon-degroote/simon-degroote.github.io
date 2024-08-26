@@ -19,10 +19,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    color: white;
 }
 
 .skillsItem {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 

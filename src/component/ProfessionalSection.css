@@ -1,5 +1,5 @@
 .professionalSection {
-    background-color: lightyellow;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -49,6 +49,12 @@
     margin-left: 10px;
     margin-right: 10px;
     width: 700px;
+}
+
+.professionalItemImgContainer {
+    display: flex;
+    align-items: flex-start;
+    width: 500px;
 }
 
 .professionalItemImg {

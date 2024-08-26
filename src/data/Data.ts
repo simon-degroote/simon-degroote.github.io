@@ -5,7 +5,11 @@ const DATA: PersonalData = {
     tel : "+32 491 73 47 31",
     email : "simon.degroote1@gmail.com",
     address : "7 rue de la Couronne, 6210 Villers Perwin",
-    bio : "Etudiant en électromécanique option maintenance et aimant de nature découvrir les nouvelles technologies, j’aime mettre à profit mes compétences pour faire évoluer un projet. C’est d’ailleurs mon occupation principale en dehors de mon cursus scolaire, ce qui me permet de m’instruire quotidiennement en travaillant au côté de professionnel dans divers secteurs tels que l’automobile, l’agriculture, l’HVAC ou la conception mécanique.",
+    bio : "Etudiant en électromécanique option maintenance et aimant de nature découvrir les \
+nouvelles technologies, j’aime mettre à profit mes compétences pour faire évoluer un \
+projet. C’est d’ailleurs mon occupation principale en dehors de mon cursus scolaire. Cela \
+me permet de m’instruire quotidiennement en travaillant au côté de professionnel dans \
+divers secteurs tels que l’automobile, l’agriculture, l’HVAC ou la conception mécanique.",
     skills : [
         "Communication au sein d’une équipe ",
         "Expérience dans l’installation de climatisation et pompes à chaleur",
@@ -82,7 +86,7 @@ const DATA: PersonalData = {
         },
         {
             title : "Participation à la journée « Entreprendre ton futur »",
-            description : "Cette journée est organisée par notre école pour nous aider dans la recherche de notre futur parcours professionnel. Une vingtaine d’entreprises actives dans le secteur en Belgique et dans le monde y était présentes et à notre disposition pour des séances d’information. Pour ma part celle-ci fut très instructive et m’a permis d’échanger mes coordonnées avec deux entreprises intéressées par mon profil que sont KSB et EQUANS"
+            description : "Cette journée est organisée par notre école pour nous aider dans la recherche de notre futur parcours professionnel. Une vingtaine d’entreprises actives dans le secteur en Belgique et dans le monde y étaient présentes et à notre disposition pour des séances d’information. Pour ma part celle-ci fut très instructive et m’a permis d’échanger mes coordonnées avec deux entreprises intéressées par mon profil que sont KSB et EQUANS"
         }
     ],
     visits : [
@@ -137,7 +141,9 @@ const DATA: PersonalData = {
         ]
     },
     expertise : {
-        text : "La plateforme PIX est proposée par la direction interministérielle du numérique afin de permettre aux utilisateurs d’évaluer leurs compétences numériques. Voici ci-dessous, les différents niveaux que j’ai obtenus à ce jour.",
+        text : "La plateforme PIX est proposée par la direction interministérielle du numérique afin de \
+permettre aux utilisateurs d’évaluer leurs compétences numériques. Voici ci-dessous, le \
+niveaux que j’ai obtenu à ce jour.",
         data : [
             {
                 title : "Information et donnée",

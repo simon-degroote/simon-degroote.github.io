@@ -11,6 +11,7 @@
 }
 
 .analyzeSectionTitle {
+    color: white;
     font-size: 50px;
 }
 
@@ -54,4 +55,8 @@ ul {
 .analyzeSectionItemListElement {
     font-size: 20px;
     margin-bottom: 4px;
+}
+
+.analyzeSectionSwotImage {
+    max-width: 800px;
 }

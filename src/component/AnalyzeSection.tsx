@@ -13,8 +13,9 @@ const AnalyzeSection: React.FC<any> = (props: any) => {
                 })
             }
             </div>
+            <img className="analyzeSectionSwotImage" src={require("./../img/swot.png")}></img>
             
-            <div className="analyzeSectionList">
+            {/* <div className="analyzeSectionList">
             {
                 DATA.analyze.data.map((data) => {
                     return <div className="analyzeSectionItem">
@@ -29,7 +30,7 @@ const AnalyzeSection: React.FC<any> = (props: any) => {
                     </div>
                 })
             }
-            </div>
+            </div> */}
           </section>
     )
 }
