@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c77bbaa.css",
-    "main.js": "/static/js/main.1734b17a.js",
+    "main.css": "/static/css/main.1c840c7a.css",
+    "main.js": "/static/js/main.b8db5920.js",
     "static/js/453.51b2f1c6.chunk.js": "/static/js/453.51b2f1c6.chunk.js",
     "static/media/ecam.png": "/static/media/ecam.2e4e5f9fb5e3694f5bf6.png",
     "static/media/work_day.jpg": "/static/media/work_day.d85771f222fd9a64b4fe.jpg",
@@ -13,6 +13,7 @@
     "static/media/Saint-Marie.jpg": "/static/media/Saint-Marie.0a95292d603ec275cdd2.jpg",
     "static/media/skills.png": "/static/media/skills.a508d357231e9d7d668a.png",
     "static/media/exp2.jpg": "/static/media/exp2.0436a71e5388b0ee57d2.jpg",
+    "static/media/swot.png": "/static/media/swot.caba24f169c71e4cdf3e.png",
     "static/media/visit1.jpg": "/static/media/visit1.3f78918ffe45f496270b.jpg",
     "static/media/analyze.jpg": "/static/media/analyze.d18a250757ce8c4d0f77.jpg",
     "static/media/exp3.jpg": "/static/media/exp3.60e3334b410cbdb4af89.jpg",
@@ -21,12 +22,12 @@
     "static/media/pix.png": "/static/media/pix.ae41340272013907d200.png",
     "static/media/visit2.png": "/static/media/visit2.2044d41f247ad7b9b1c7.png",
     "index.html": "/index.html",
-    "main.1c77bbaa.css.map": "/static/css/main.1c77bbaa.css.map",
-    "main.1734b17a.js.map": "/static/js/main.1734b17a.js.map",
+    "main.1c840c7a.css.map": "/static/css/main.1c840c7a.css.map",
+    "main.b8db5920.js.map": "/static/js/main.b8db5920.js.map",
     "453.51b2f1c6.chunk.js.map": "/static/js/453.51b2f1c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c77bbaa.css",
-    "static/js/main.1734b17a.js"
+    "static/css/main.1c840c7a.css",
+    "static/js/main.b8db5920.js"
   ]
 }
